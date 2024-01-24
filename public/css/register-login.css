@@ -1,0 +1,82 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+
+}
+
+body{
+    font-family: 'Roboto', sans-serif;
+    background-color: #ebebeb;
+    width: 100%;
+    
+}
+
+.main-registro{
+    margin-top: 30px;
+}
+.main-registro-form{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.main-registro-form input, label{
+    display: block;
+    margin: 20px;
+    border: none;
+}
+.main-registro-form input{
+    border-radius: 5px;
+    width: 90%;
+}
+.main-registro-form label{
+    font-weight: bold;
+    font-size: small;
+}
+.main-registro-form-perfilUsuario{
+    display: flex;
+}
+
+.main-registro-form-perfilUsuario label{
+    font-size: 10px;
+    font-weight: normal;
+
+}
+.main-registro-form-intereses-choses label{
+    display: flex;
+    font-weight: bold;
+    font-size: 10px;
+    align-items: center;
+    font-weight: normal;
+    margin: 10px;
+}
+.main-registro-form-intereses input{
+    
+    width: auto;
+}
+.main-registro-form-buttons{
+    display: flex;
+    justify-content: space-around;
+}
+.main-registro-form-buttons button{
+    background-color: #0044AA;
+    color: #ebebeb;
+    border-color:#1259c3;
+    border-radius: 3px;
+}
+.main-registro-form-buttons a{
+    text-decoration: none;
+    color: #ebebeb;
+}
+.main-login-form-buttons{
+    width: 250px;
+    background-color: #0044AA;
+    text-align: center;
+    margin-left: 15px;
+}
+
+.main-login-form-buttons a{
+    text-decoration: none;
+    color: #ebebeb;
+}
+

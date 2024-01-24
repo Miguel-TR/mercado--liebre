@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="/css/register.css">
+        <script src="https://kit.fontawesome.com/92e82ded12.js" crossorigin="anonymous"></script>
+    <!--FONT-->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto&display=swap" rel="stylesheet">
+    <title>Register</title>
+</head>
+<body>
+    <main class="main-registro">
+        <div class="main-registro-form">
+            <form action="/register" method="POST">
+                <input type="text" name="nombreApellido" placeholder="Nombre y apellido">
+                <input type="text" name="usuario" placeholder="Nombre de usuario">
+                <input type="email" name="email" placeholder="Email">
+                <label for="fechaNac">Fecha de nacimiento</label>
+                <input type="date" name="fechaNac">
+                <input type="text" name="domicilio" placeholder="Domicilio">
+                <div class="main-registro-form-perfilUsuario">
+                    <input type="radio" name="tipoUsuario" value="Comprador"><label for="Comprador">Comprador</label>
+                    <input type="radio" name="tipoUsuario" value="Vendedor"><label for="Vendedor">Vendedor</label>
+                </div>
+                <div class="main-registro-form-intereses">
+                    <label>Intereses</label>
+                    <div class="main-registro-form-intereses-choses">
+                        <label for="Electro"><input type="checkbox" name="intereses" value="Electro">Electro</label>
+                        <label for="Moda"><input type="checkbox" name="intereses" value="Moda">Moda</label>
+                        <label for="Hogar"><input type="checkbox" name="intereses" value="Hogar">Hogar</label>
+                        <label for="Jugueteria"><input type="checkbox" name="intereses" value="Jugueteria">Juguetería</label>
+                        <label for="VidaSana"><input type="checkbox" name="intereses" value="VidaSana">Vida Sana</label>
+                    </div>
+                </div>
+                <label for="fotoUsuario">Foto de usuario
+                    <input type="file" name="fotoUsuario" accept=".jpg">
+                </label>
+                <input type="password" name="password" placeholder="Contraseña">
+                <input type="password" name="password" placeholder="Contraseña">
+                <br>
+                <div class="main-registro-form-buttons">
+                    <button type="Reset">Limpiar datos</button>
+                    <button type="submit"><a href="/">Registrarse</a></button>
+                </div>
+            </form>
+        </div>
+    
+    </main>
+</body>
+</html>
